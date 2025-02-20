@@ -28,20 +28,27 @@ nav ul li{
     padding: 15px 25px;
     border-radius: 5px;
     background-color: green;
+    
 }
 
 /* banner styles */
 .banner{
+    background-color: #C6E4D6;
+    background-size: 1280px; 
+    border-radius: 20px;
     display: flex; 
     justify-content: space-between;
-    margin: 0 160px 0 160px;
+    margin: 0 200px 0 200px;
     }
 .banner-content{
-    max-width: 600px;
+    
+    max-width: 1200px;
 }
 .banner-greetings{
+    color: #0E0E0E;
     
 }
 .banner profile pic{
-
+    height: 400px;
+    width: 474.03px;
 }
