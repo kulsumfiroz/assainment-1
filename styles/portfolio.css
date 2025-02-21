@@ -25,30 +25,51 @@ nav ul li{
     color: green;
 }
 .btn-primary{
+    
     padding: 15px 25px;
     border-radius: 5px;
     background-color: green;
     
 }
 
+.section-title{
+    font-size:40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
 /* banner styles */
 .banner{
     background-color: #C6E4D6;
-    background-size: 1280px; 
+    /* background-size: 1280px;  */
     border-radius: 20px;
     display: flex; 
     justify-content: space-between;
-    margin: 0 200px 0 200px;
+    max-width: 1200px;
+
+    margin: 0px auto;
+    padding: 50px;
+    
     }
 .banner-content{
-    
-    max-width: 1200px;
+    ;
+    /* max-width: 1200px; */
 }
+
 .banner-greetings{
-    color: #0E0E0E;
-    
+    color: #0e0e0e80;
+    }
+
+.profile-pic{
+height: 400px;
+    width:400px;
 }
-.banner profile pic{
-    height: 400px;
-    width: 474.03px;
+
+.banner-headline{
+    font-size: 50px;
+}
+/*  skills section style */
+
+.skill-container{
+    display: flex;
 }
