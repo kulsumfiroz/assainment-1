@@ -131,4 +131,9 @@ height: 400px;
 .card3{
     background-color: #ffc43941;
 }
-.
+.quote{
+    background-color: rgba(150, 207, 18, 0.281);
+    border-radius: 8px;
+    margin-inline-start: 150px;
+     margin-inline-end: 150px;
+}
