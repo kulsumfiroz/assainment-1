@@ -39,6 +39,7 @@ nav ul li{
 }
 
 /* banner styles */
+
 .banner{
     background-color: #C6E4D6;
     /* background-size: 1280px;  */
@@ -46,15 +47,14 @@ nav ul li{
     display: flex; 
     justify-content: space-between;
     max-width: 1200px;
-
     margin: 0px auto;
     padding: 50px;
     
     }
 .banner-content{
-    ;
-    /* max-width: 1200px; */
 }
+    /* max-width: 1200px; */
+
 
 .banner-greetings{
     color: #0e0e0e80;
@@ -68,16 +68,37 @@ height: 400px;
 .banner-headline{
     font-size: 50px;
 }
+
+/*---about styles -----*/
+
+.about{
+     margin-inline-start: 130px;
+     margin-inline-end: 130px;
+}
+
+/*-----section title----*/
+
+.section-title{
+    margin: 50px;
+}
+
+/* --- main styles ---*/
+
+.main{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
 /*  skills section style */
 
 .skill-container{
     display: flex;
-    gap: 24px;
-}
+    }
+
 .skill{
     margin: 50px;
-    
-   padding: 24px;
+    padding: 24px;
     box-shadow: 0px 6px 20px 0px burlywood;
     border-radius: 10px;
+    
 }
