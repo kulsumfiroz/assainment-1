@@ -20,6 +20,9 @@ nav{
     padding: 10px 15px;
     border-radius: 8px;
 }
+.Sign-In:hover{
+    background-color: rgb(238, 161, 161);
+}
 
 nav ul li{
     list-style: none;
@@ -33,6 +36,9 @@ nav ul li{
     border-radius: 5px;
     background-color: green;
     color: white;
+    }
+    .btn-primary:hover{
+        background-color: rgb(48, 145, 145);
     }
 
     .btn-card1{
@@ -60,6 +66,9 @@ nav ul li{
         background-color: rgba(4, 128, 0, 0.932);
         color: white;
     }
+.btn-card4:hover{
+    background-color: rgb(197, 204, 106);
+}
 
 .section-title{
     font-size:40px;
@@ -78,10 +87,9 @@ nav ul li{
     max-width: 1200px;
     margin: 0px auto;
     padding: 50px;
-    
-    }
-.banner-content{
+   
 }
+
     /* max-width: 1200px; */
 
 
@@ -207,8 +215,10 @@ height: 400px;
     font-weight: bold;
     border-radius: 20px;
     }
-
-    .donation-btn1{
+.donation-btn:hover{
+    background-color: rgba(84, 114, 235, 0.911); 
+}
+.donation-btn1{
         padding:20px 30px;
         background-color: rgba(84, 114, 235, 0.911);
         border: none;
@@ -216,6 +226,10 @@ height: 400px;
         font-weight: bold;
         border-radius: 20px;
         }
+.donation-btn1:hover{
+    background-color: rgb(199, 151, 151);
+}
+
 
 .action-buttons{
     display: flex;
@@ -233,6 +247,10 @@ height: 400px;
     color: white;
     font-size: 20px;
     font-weight: bold;
+}
+
+.action-btn:hover{
+    background-color: rgb(199, 151, 151);
 }
 
 .footer{
@@ -266,7 +284,9 @@ color: rgba(160, 158, 158, 0.041);
 text-align: center;
 background-color: rgba(250, 235, 215, 0.63);
 border: none;
-
+}
+.input-field input:hover{
+    background-color: wheat;
 }
 
 .Second-input-field input{
@@ -275,8 +295,22 @@ border: none;
     border-radius: 15px;
     font-size: 20px;
     color: rgba(160, 158, 158, 0.041);
-    text-align: center;
+    text-align: center ;
     background-color: rgba(250, 235, 215, 0.63);
     border: none;
     margin-inline-start: 250px;   
+}
+.Second-input-field input:hover{
+    background-color: rgb(20, 170, 120);
+}
+
+.social-media{
+    text-align: center;
+
+}
+.social-media .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
