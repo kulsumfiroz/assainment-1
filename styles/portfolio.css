@@ -14,7 +14,12 @@ nav{
     align-items: centre;
     margin: 20px 180px;
 }
-
+.Sign-In{
+    border-color: green;
+    color: green;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
 
 nav ul li{
     list-style: none;
@@ -158,12 +163,75 @@ height: 400px;
 .work{
     display: flex;
     gap: 30px;
-    background: rgba(153, 205, 50, 0.212);
+    background: rgba(240, 237, 237, 0.918);
     border-radius: 20px;
     padding: 30px;
 }
 
 .satalite-image{
     border-radius: 20px;
+}
+
+.satalite-section{
+    font: bold;
+    font-size: 25px;
+}
+
+.donate-heading{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.donation-content{
+    font-size: medium;
+    margin-inline-start: 180px;
+    margin-inline-end: 170px;
+    text-align: center;
+}
+
+
+.button-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.donation-btn{
+    padding:20px 30px;
+    background-color: rgba(209, 214, 233, 0.911);
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    }
+
+    .donation-btn1{
+        padding:20px 30px;
+        background-color: rgba(84, 114, 235, 0.911);
+        border: none;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 20px;
+        }
+
+.action-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.action-btn{
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
