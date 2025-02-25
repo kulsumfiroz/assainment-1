@@ -201,7 +201,7 @@ height: 400px;
 
 .donation-btn{
     padding:20px 30px;
-    background-color: rgba(209, 214, 233, 0.911);
+    background-color: rgba(216, 217, 219, 0.911);
     border: none;
     font-size: 30px;
     font-weight: bold;
@@ -233,5 +233,36 @@ height: 400px;
     color: white;
     font-size: 20px;
     font-weight: bold;
+}
+
+.footer{
+    text-align: center;
+    }
+
+.Newslater{
+    background-color: rgb(163, 228, 206);
+    margin-inline-start: 180px;
+    margin-inline-end: 170px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.Newslater-heading{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.Newslater-content{
+    font-size: medium;
+    text-align: center;
+    justify-content: center;
+    } 
+.input-field input{
+width: 760px;
+height: 50px;
+border-radius: 15px;
+font-size: 20px;
+color: rgba(218, 214, 214, 0.856);
+text-align: center;
+
 }
 
