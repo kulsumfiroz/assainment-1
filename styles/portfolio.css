@@ -239,11 +239,27 @@ height: 400px;
 
 }
 
-.action-btn{
-    padding: 10px 20px;
+.Subscribe-btn{
+    position: relative;
+    left: -15px;
+    padding: 15px 20px;
     background-color: green;
     border: none;
-    border-radius: 5px;
+    border-radius:0  5px 5px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Subscribe-btn:hover{
+    background-color: rgb(199, 151, 151); 
+}
+
+.action-btn{
+    padding: 15px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 5px ;
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -301,7 +317,8 @@ border: none;
     margin-inline-start: 250px;   
 }
 .Second-input-field input:hover{
-    background-color: rgb(20, 170, 120);
+    
+    filter: drop-shadow(0 0 10px rgb(221, 49, 26));
 }
 
 .social-media{
@@ -314,3 +331,4 @@ border: none;
     align-items: center;
     gap: 20px;
 }
+
